@@ -3,10 +3,6 @@ const { Tag, Product, ProductTag } = require('../../models');
 
 // The `/api/tags` endpoint
 
-router.use((req, res) => {
-  res.send("<h1>Wrong Route!</h1>")
-});
-
 // find all tags and include its associated Product data
 router.get('/', async (req, res) => {
   try {
