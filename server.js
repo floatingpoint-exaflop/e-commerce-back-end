@@ -10,7 +10,9 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(routes);
 
-const allowSync = (process.env.NODE_ENV === 'production') ? false : true
+console.log("hello")
+
+const allowSync = (process.env.NODE_ENV === 'production') ? false : false
 
 sequelize.sync({ force: allowSync }).then(() => {
   app.listen(PORT, () => console.log(`Now listening on port ${PORT}!`));
