@@ -2,9 +2,6 @@ const router = require('express').Router();
 const { Tag, Product, ProductTag } = require('../../models');
 
 // The `/api/tags` endpoint
-const apiRoutes = require('/tags');
-
-router.use('/tags', apiRoutes);
 
 router.use((req, res) => {
   res.send("<h1>Wrong Route!</h1>")
