@@ -26,7 +26,7 @@
 
 
 
-  [A video tutorial for using content-management-system](video)
+  [A video tutorial for using content-management-system](https://drive.google.com/file/d/1PbVeZe7gJ-Ncxaioac_gMg6Bjc1BaeO8/view?usp=sharing)
 
   ## Contributing
   If you want to contribute to this project - particularly if you want to work with me on building this out and connecting it to a front end to make it useful, see my contact info in the Questions section below. Don’t hesitate to reach out! I am a beginner at this stuff but always hungry to learn from others in the community.
